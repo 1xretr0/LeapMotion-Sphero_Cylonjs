@@ -3,7 +3,7 @@ This repo contains mainly js project files, scripts and resources for LeapMotion
 
 ## how to
 1. have nodejs already installed
-2. have npm ready and updated
+2. have npm ready and updated with `npm install -g npm`
 3. install `npm install -g cylon` globally if not installed
 4. install directly in project workspace `npm install cylon cylon-gpio cylon-i2c cylon-leapmotion`
 5. run leap.js with `node leap.js`
