@@ -1,5 +1,5 @@
 //leap.js
-var Cylon = require('cylon');
+var Cylon = require('cylon'); // Init robot
 
 Cylon.robot({
   connections: {
