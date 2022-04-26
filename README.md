@@ -1,12 +1,18 @@
 # LeapMotion-Sphero_Cylonjs
 This repo contains mainly js project files, scripts and resources for LeapMotion and Sphero interaction.
 
-## how to
+## how to cylonjs
 1. have nodejs already installed
 2. have npm ready and updated with `npm install -g npm`
 3. install `npm install -g cylon` globally if not installed
 4. install directly in project workspace `npm install cylon cylon-gpio cylon-i2c cylon-leapmotion`
-5. run leap.js with `node leap.js`
+5. run test_robot with `node test_robot.js`
+
+## how to Sphero py
+1. have python 3.7 or later installed
+2. have pip installed and updated `py -m pip install --upgrade pip`
+3. install globally or locally sphero and bleak packages with `pip install spherov2 Bleak`
+4. run test_sphero.py
 
 ## test_robot.js
 just a default `helloworld.js` with cylon
