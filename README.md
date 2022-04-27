@@ -19,9 +19,13 @@ just a default `helloworld.js` with cylon
 
 ## leap.js
 js integration with leap motion tracking log in real time
+**expected output**
+![image](https://user-images.githubusercontent.com/65722993/165593198-417258e0-aa16-4ddf-ad86-b63357fac973.png)
 
 ## test_sphero.py
 py integration of sphero with SpheroEduApi
+**expected output**
+the sphero mini toy should turn on different led colors and weirdly move a bit.
 
 ## TODO
 For some reason, `leap.js` is only working with the tracking software version of **Orion V4.1**.
