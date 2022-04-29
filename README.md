@@ -23,6 +23,11 @@ js integration with leap motion tracking log in real time
 **expected output**
 ![image](https://user-images.githubusercontent.com/65722993/165593198-417258e0-aa16-4ddf-ad86-b63357fac973.png)
 
+## leap2.js
+js code that detects, obtains and returns user's hand position
+
+**expected output**
+x,y,z coordinates
 ## test_sphero.py
 py integration of sphero with SpheroEduApi
 

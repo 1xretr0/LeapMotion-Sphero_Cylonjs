@@ -1,4 +1,6 @@
-//leap.js
+// leap.js
+// this code returns log data such as hand count, pointables, frames, etc
+
 var Cylon = require('cylon'); // Init robot
 
 Cylon.robot({
