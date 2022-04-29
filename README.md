@@ -28,13 +28,26 @@ js code that detects, obtains and returns user's hand position
 
 **expected output**
 x,y,z coordinates
+
 ## test_sphero.py
 py integration of sphero with SpheroEduApi
 
 **expected output**
 the sphero mini toy should turn on different led colors and weirdly move a bit.
 
-## TODO
+## IMPORTANT
 For some reason, `leap.js` is only working with the tracking software version of **Orion V4.1**.
-Still need to check installing `cylon-sphero` because its throwing lots of errors.
-The current plan is to implement the leapmotion input and sphero as output.
+
+## TODO
+The current plan is to implement the leapmotion input and sphero as output. 
+Leap python sdk is completely deprecated so js is our best shot.
+Sphero has its own api to develop, despite this we need external development tools such as cylon or py pkgs.
+After several attemps we still cannot install nor use `cylon-sphero` package.
+The last idea was to try using bb8 sphero instead of the mini one, with cylon.
+
+### node versin
+changing node js version to the one 'compatible' with sphero does not work
+
+### leap tracking software version
+still need to check if the leap2.js script works with the last version of ultraleap "Gemini"
+
