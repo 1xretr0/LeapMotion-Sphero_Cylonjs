@@ -46,7 +46,8 @@ js code that detects, obtains and returns user's hand position
 x,y,z coordinates
 
 ## test_ble.js
-js code to test interaction with sphero bb8
+js code to test interaction with sphero bb8.
+make sure to install first `npm install cylon cylon-ble`
 
 **expected output**
 the robot should move or change lights at least
