@@ -105,4 +105,4 @@ dist
 
 # node modules file
 node_modules/
-*.json
+
